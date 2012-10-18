@@ -1,0 +1,1335 @@
+2012-10-05 21:57:32 Error: [MissingTableException] Table parties for model Party was not found in datasource default.
+#0 C:\wamp\www\cake\lib\Cake\Model\Model.php(3179): Model->setSource('parties')
+#1 C:\wamp\www\cake\lib\Cake\Model\Model.php(2630): Model->getDataSource()
+#2 C:\wamp\www\cake\app\Controller\PartiesController.php(6): Model->find('all')
+#3 [internal function]: PartiesController->index()
+#4 C:\wamp\www\cake\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PartiesController), Array)
+#5 C:\wamp\www\cake\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp\www\cake\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PartiesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\wamp\www\cake\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-10-05 21:58:30 Error: [MissingTableException] Table parties for model Party was not found in datasource default.
+#0 C:\wamp\www\cake\lib\Cake\Model\Model.php(3179): Model->setSource('parties')
+#1 C:\wamp\www\cake\lib\Cake\Model\Model.php(2630): Model->getDataSource()
+#2 C:\wamp\www\cake\app\Controller\PartiesController.php(6): Model->find('all')
+#3 [internal function]: PartiesController->index()
+#4 C:\wamp\www\cake\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PartiesController), Array)
+#5 C:\wamp\www\cake\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp\www\cake\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PartiesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\wamp\www\cake\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-10-05 21:58:45 Error: [MissingTableException] Table parties for model Party was not found in datasource default.
+#0 C:\wamp\www\cake\lib\Cake\Model\Model.php(3179): Model->setSource('parties')
+#1 C:\wamp\www\cake\lib\Cake\Model\Model.php(2630): Model->getDataSource()
+#2 C:\wamp\www\cake\app\Controller\PartiesController.php(6): Model->find('all')
+#3 [internal function]: PartiesController->index()
+#4 C:\wamp\www\cake\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PartiesController), Array)
+#5 C:\wamp\www\cake\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp\www\cake\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PartiesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\wamp\www\cake\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-10-05 22:05:48 Error: [MissingTableException] Table parties for model Party was not found in datasource default.
+#0 C:\wamp\www\cake\lib\Cake\Model\Model.php(3179): Model->setSource('parties')
+#1 C:\wamp\www\cake\lib\Cake\Model\Model.php(2630): Model->getDataSource()
+#2 C:\wamp\www\cake\app\Controller\PartiesController.php(6): Model->find('all')
+#3 [internal function]: PartiesController->index()
+#4 C:\wamp\www\cake\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PartiesController), Array)
+#5 C:\wamp\www\cake\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp\www\cake\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PartiesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\wamp\www\cake\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-10-05 22:06:11 Error: [MissingTableException] Table parties for model Party was not found in datasource default.
+#0 C:\wamp\www\cake\lib\Cake\Model\Model.php(3179): Model->setSource('parties')
+#1 C:\wamp\www\cake\lib\Cake\Model\Model.php(2630): Model->getDataSource()
+#2 C:\wamp\www\cake\app\Controller\PartiesController.php(6): Model->find('all')
+#3 [internal function]: PartiesController->index()
+#4 C:\wamp\www\cake\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PartiesController), Array)
+#5 C:\wamp\www\cake\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp\www\cake\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PartiesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\wamp\www\cake\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-10-05 22:07:55 Error: [MissingViewException] View file "C:\wamp\www\cake\app\View\Parties\index.ctp" is missing.
+#0 C:\wamp\www\cake\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\wamp\www\cake\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\wamp\www\cake\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\wamp\www\cake\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PartiesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\cake\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-10-05 22:14:02 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\wamp\www\cake\app\View\Parties\index.ctp, line 4]
+2012-10-05 22:14:02 Error: [FatalErrorException] syntax error, unexpected ';'
+#0 C:\wamp\www\cake\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 4)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 4, Array)
+#2 C:\wamp\www\cake\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 4, Array)
+#3 C:\wamp\www\cake\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-05 22:14:38 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\wamp\www\cake\app\View\Parties\index.ctp, line 3]
+2012-10-05 22:14:38 Error: [FatalErrorException] syntax error, unexpected ';'
+#0 C:\wamp\www\cake\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 3)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 3, Array)
+#2 C:\wamp\www\cake\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 3, Array)
+#3 C:\wamp\www\cake\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-05 22:15:11 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\wamp\www\cake\app\View\Parties\index.ctp, line 3]
+2012-10-05 22:15:11 Error: [FatalErrorException] syntax error, unexpected ';'
+#0 C:\wamp\www\cake\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 3)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 3, Array)
+#2 C:\wamp\www\cake\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 3, Array)
+#3 C:\wamp\www\cake\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-05 22:15:16 Error: Fatal Error (4): syntax error, unexpected T_ECHO, expecting ',' or ';' in [C:\wamp\www\cake\app\View\Parties\index.ctp, line 3]
+2012-10-05 22:15:16 Error: [FatalErrorException] syntax error, unexpected T_ECHO, expecting ',' or ';'
+#0 C:\wamp\www\cake\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 3)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 3, Array)
+#2 C:\wamp\www\cake\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 3, Array)
+#3 C:\wamp\www\cake\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-05 22:15:24 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\wamp\www\cake\app\View\Parties\index.ctp, line 4]
+2012-10-05 22:15:24 Error: [FatalErrorException] syntax error, unexpected ';'
+#0 C:\wamp\www\cake\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 4)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 4, Array)
+#2 C:\wamp\www\cake\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 4, Array)
+#3 C:\wamp\www\cake\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-05 22:38:01 Error: Fatal Error (4): syntax error, unexpected T_OBJECT_OPERATOR in [C:\wamp\www\cake\app\Controller\PartiesController.php, line 19]
+2012-10-05 22:38:01 Error: [FatalErrorException] syntax error, unexpected T_OBJECT_OPERATOR
+#0 C:\wamp\www\cake\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 19)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 19, Array)
+#2 C:\wamp\www\cake\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 19, Array)
+#3 C:\wamp\www\cake\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-05 22:39:44 Error: Fatal Error (1): Call to a member function is() on a non-object in [C:\wamp\www\cake\app\Controller\PartiesController.php, line 15]
+2012-10-05 22:39:44 Error: [FatalErrorException] Call to a member function is() on a non-object
+#0 C:\wamp\www\cake\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\cak...', 15)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\cak...', 15, Array)
+#2 C:\wamp\www\cake\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\cak...', 15, Array)
+#3 C:\wamp\www\cake\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-05 22:40:04 Error: Fatal Error (1): Call to a member function is() on a non-object in [C:\wamp\www\cake\app\Controller\PartiesController.php, line 15]
+2012-10-05 22:40:04 Error: [FatalErrorException] Call to a member function is() on a non-object
+#0 C:\wamp\www\cake\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\cak...', 15)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\cak...', 15, Array)
+#2 C:\wamp\www\cake\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\cak...', 15, Array)
+#3 C:\wamp\www\cake\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-08 03:09:37 Error: Fatal Error (4): syntax error, unexpected T_VARIABLE in [C:\wamp\www\cake\app\View\Parties\add.ctp, line 4]
+2012-10-08 03:09:37 Error: [FatalErrorException] syntax error, unexpected T_VARIABLE
+#0 C:\wamp\www\cake\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 4)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 4, Array)
+#2 C:\wamp\www\cake\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 4, Array)
+#3 C:\wamp\www\cake\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-08 03:09:44 Error: Fatal Error (4): syntax error, unexpected T_VARIABLE in [C:\wamp\www\cake\app\View\Parties\add.ctp, line 4]
+2012-10-08 03:09:44 Error: [FatalErrorException] syntax error, unexpected T_VARIABLE
+#0 C:\wamp\www\cake\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 4)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 4, Array)
+#2 C:\wamp\www\cake\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 4, Array)
+#3 C:\wamp\www\cake\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-08 03:10:21 Error: Fatal Error (4): syntax error, unexpected T_STRING in [C:\wamp\www\cake\app\View\Parties\add.ctp, line 4]
+2012-10-08 03:10:21 Error: [FatalErrorException] syntax error, unexpected T_STRING
+#0 C:\wamp\www\cake\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 4)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 4, Array)
+#2 C:\wamp\www\cake\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 4, Array)
+#3 C:\wamp\www\cake\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-08 03:10:29 Error: Fatal Error (4): syntax error, unexpected T_VARIABLE in [C:\wamp\www\cake\app\View\Parties\add.ctp, line 4]
+2012-10-08 03:10:29 Error: [FatalErrorException] syntax error, unexpected T_VARIABLE
+#0 C:\wamp\www\cake\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 4)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 4, Array)
+#2 C:\wamp\www\cake\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 4, Array)
+#3 C:\wamp\www\cake\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-08 13:49:10 Error: Fatal Error (4): syntax error, unexpected T_VARIABLE, expecting T_FUNCTION in [C:\wamp\www\cake\app\Model\Comment.php, line 4]
+2012-10-08 13:49:10 Error: [FatalErrorException] syntax error, unexpected T_VARIABLE, expecting T_FUNCTION
+#0 C:\wamp\www\cake\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 4)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 4, Array)
+#2 C:\wamp\www\cake\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 4, Array)
+#3 C:\wamp\www\cake\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-08 13:57:07 Error: Fatal Error (4): syntax error, unexpected T_DOUBLE_ARROW in [C:\wamp\www\cake\app\Controller\CommentsController.php, line 20]
+2012-10-08 13:57:07 Error: [FatalErrorException] syntax error, unexpected T_DOUBLE_ARROW
+#0 C:\wamp\www\cake\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 20)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 20, Array)
+#2 C:\wamp\www\cake\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 20, Array)
+#3 C:\wamp\www\cake\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-08 13:58:09 Error: [MissingViewException] View file "C:\wamp\www\cake\app\View\Comments\add.ctp" is missing.
+#0 C:\wamp\www\cake\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\wamp\www\cake\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\wamp\www\cake\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\wamp\www\cake\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\cake\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-10-08 14:01:26 Error: Fatal Error (4): syntax error, unexpected T_OBJECT_OPERATOR, expecting ',' or ';' in [C:\wamp\www\cake\app\View\Comments\add.ctp, line 1]
+2012-10-08 14:01:26 Error: [FatalErrorException] syntax error, unexpected T_OBJECT_OPERATOR, expecting ',' or ';'
+#0 C:\wamp\www\cake\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 1)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 1, Array)
+#2 C:\wamp\www\cake\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 1, Array)
+#3 C:\wamp\www\cake\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-08 14:02:07 Error: Fatal Error (4): syntax error, unexpected T_OBJECT_OPERATOR, expecting ',' or ';' in [C:\wamp\www\cake\app\View\Comments\add.ctp, line 2]
+2012-10-08 14:02:07 Error: [FatalErrorException] syntax error, unexpected T_OBJECT_OPERATOR, expecting ',' or ';'
+#0 C:\wamp\www\cake\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 2)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 2, Array)
+#2 C:\wamp\www\cake\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 2, Array)
+#3 C:\wamp\www\cake\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-08 14:02:28 Error: Fatal Error (1): Call to undefined method SessionComponent::flash() in [C:\wamp\www\cake\app\Controller\CommentsController.php, line 19]
+2012-10-08 14:02:28 Error: [FatalErrorException] Call to undefined method SessionComponent::flash()
+#0 C:\wamp\www\cake\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\wamp\www\cak...', 19)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\wamp\www\cak...', 19, Array)
+#2 C:\wamp\www\cake\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\wamp\www\cak...', 19, Array)
+#3 C:\wamp\www\cake\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-08 14:02:46 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY'
+#0 C:\wamp\www\cake\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\wamp\www\cake\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('INSERT INTO `pa...', Array)
+#2 C:\wamp\www\cake\lib\Cake\Model\Datasource\DboSource.php(1009): DboSource->execute('INSERT INTO `pa...')
+#3 C:\wamp\www\cake\lib\Cake\Model\Model.php(1730): DboSource->create(Object(Comment), Array, Array)
+#4 C:\wamp\www\cake\app\Controller\CommentsController.php(17): Model->save(Array)
+#5 [internal function]: CommentsController->add()
+#6 C:\wamp\www\cake\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(CommentsController), Array)
+#7 C:\wamp\www\cake\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\www\cake\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\wamp\www\cake\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-10-08 14:03:13 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY'
+#0 C:\wamp\www\cake\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\wamp\www\cake\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('INSERT INTO `pa...', Array)
+#2 C:\wamp\www\cake\lib\Cake\Model\Datasource\DboSource.php(1009): DboSource->execute('INSERT INTO `pa...')
+#3 C:\wamp\www\cake\lib\Cake\Model\Model.php(1730): DboSource->create(Object(Comment), Array, Array)
+#4 C:\wamp\www\cake\app\Controller\CommentsController.php(17): Model->save(Array)
+#5 [internal function]: CommentsController->add()
+#6 C:\wamp\www\cake\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(CommentsController), Array)
+#7 C:\wamp\www\cake\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\www\cake\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\wamp\www\cake\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-10-08 14:09:44 Error: Fatal Error (1): Call to a member function flash() on a non-object in [C:\wamp\www\cake\app\Controller\CommentsController.php, line 19]
+2012-10-08 14:09:44 Error: [FatalErrorException] Call to a member function flash() on a non-object
+#0 C:\wamp\www\cake\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\cak...', 19)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\cak...', 19, Array)
+#2 C:\wamp\www\cake\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\cak...', 19, Array)
+#3 C:\wamp\www\cake\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-08 14:10:17 Error: Fatal Error (1): Call to a member function setFlash() on a non-object in [C:\wamp\www\cake\app\Controller\CommentsController.php, line 19]
+2012-10-08 14:10:17 Error: [FatalErrorException] Call to a member function setFlash() on a non-object
+#0 C:\wamp\www\cake\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\cak...', 19)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\cak...', 19, Array)
+#2 C:\wamp\www\cake\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\cak...', 19, Array)
+#3 C:\wamp\www\cake\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-08 19:11:45 Error: Fatal Error (4): syntax error, unexpected T_DOUBLE_ARROW in [C:\wamp\www\cake\app\View\Parties\index.ctp, line 13]
+2012-10-08 19:11:45 Error: [FatalErrorException] syntax error, unexpected T_DOUBLE_ARROW
+#0 C:\wamp\www\cake\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 13)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 13, Array)
+#2 C:\wamp\www\cake\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 13, Array)
+#3 C:\wamp\www\cake\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-08 19:49:23 Error: Fatal Error (4): syntax error, unexpected ')' in [C:\wamp\www\cake\app\View\Comments\index.ctp, line 10]
+2012-10-08 19:49:23 Error: [FatalErrorException] syntax error, unexpected ')'
+#0 C:\wamp\www\cake\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 10)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\cak...', 10, Array)
+#2 C:\wamp\www\cake\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\cak...', 10, Array)
+#3 C:\wamp\www\cake\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-08 19:51:22 Error: [MissingControllerException] Controller class CommentController could not be found.
+#0 C:\wamp\www\cake\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-08 19:51:34 Error: [MissingControllerException] Controller class CommentController could not be found.
+#0 C:\wamp\www\cake\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-08 19:51:37 Error: [MissingControllerException] Controller class CommentController could not be found.
+#0 C:\wamp\www\cake\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-08 20:29:52 Error: [MissingViewException] View file "C:\wamp\www\mvorcamentos\app\View\Orcamentos\index.ctp" is missing.
+#0 C:\wamp\www\mvorcamentos\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\wamp\www\mvorcamentos\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\wamp\www\mvorcamentos\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\wamp\www\mvorcamentos\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(OrcamentosController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\mvorcamentos\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-10-08 20:45:34 Error: [MissingTableException] Table clientes for model Cliente was not found in datasource default.
+#0 C:\wamp\www\mvorcamentos\lib\Cake\Model\Model.php(3179): Model->setSource('clientes')
+#1 C:\wamp\www\mvorcamentos\lib\Cake\Model\Model.php(2630): Model->getDataSource()
+#2 C:\wamp\www\mvorcamentos\app\Controller\ClientesController.php(9): Model->find('all')
+#3 [internal function]: ClientesController->index()
+#4 C:\wamp\www\mvorcamentos\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ClientesController), Array)
+#5 C:\wamp\www\mvorcamentos\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp\www\mvorcamentos\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\wamp\www\mvorcamentos\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-10-08 20:48:54 Error: [MissingViewException] View file "C:\wamp\www\mvorcamentos\app\View\Clientes\index.ctp" is missing.
+#0 C:\wamp\www\mvorcamentos\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\wamp\www\mvorcamentos\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\wamp\www\mvorcamentos\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\wamp\www\mvorcamentos\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\mvorcamentos\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-10-08 21:04:11 Error: [MissingViewException] View file "C:\wamp\www\mvorcamentos\app\View\Clientes\add.ctp" is missing.
+#0 C:\wamp\www\mvorcamentos\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\wamp\www\mvorcamentos\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\wamp\www\mvorcamentos\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\wamp\www\mvorcamentos\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\mvorcamentos\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-10-08 21:28:12 Error: [MissingControllerException] Controller class OrcamentoController could not be found.
+#0 C:\wamp\www\mvorcamentos\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-08 21:28:17 Error: [MissingControllerException] Controller class OrcamentoController could not be found.
+#0 C:\wamp\www\mvorcamentos\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-08 21:28:23 Error: [MissingControllerException] Controller class OrcamentoController could not be found.
+#0 C:\wamp\www\mvorcamentos\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-08 21:44:26 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\wamp\www\mvorcamentos\app\Controller\OrcamentosController.php, line 9]
+2012-10-08 21:44:26 Error: [FatalErrorException] Call to a member function find() on a non-object
+#0 C:\wamp\www\mvorcamentos\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\mvo...', 9)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\mvo...', 9, Array)
+#2 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\mvo...', 9, Array)
+#3 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-08 21:44:44 Error: Fatal Error (4): syntax error, unexpected T_VARIABLE, expecting T_FUNCTION in [C:\wamp\www\mvorcamentos\app\Model\Orcamento.php, line 4]
+2012-10-08 21:44:44 Error: [FatalErrorException] syntax error, unexpected T_VARIABLE, expecting T_FUNCTION
+#0 C:\wamp\www\mvorcamentos\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\mvo...', 4)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\mvo...', 4, Array)
+#2 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\mvo...', 4, Array)
+#3 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-08 21:51:59 Error: [MissingViewException] View file "C:\wamp\www\mvorcamentos\app\View\Orcamentos\add.ctp" is missing.
+#0 C:\wamp\www\mvorcamentos\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\wamp\www\mvorcamentos\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\wamp\www\mvorcamentos\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\wamp\www\mvorcamentos\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(OrcamentosController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\mvorcamentos\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-10-08 21:58:37 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\wamp\www\mvorcamentos\app\Controller\OrcamentosController.php, line 27]
+2012-10-08 21:58:37 Error: [FatalErrorException] Call to a member function find() on a non-object
+#0 C:\wamp\www\mvorcamentos\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\mvo...', 27)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\mvo...', 27, Array)
+#2 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\mvo...', 27, Array)
+#3 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-08 21:59:50 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\wamp\www\mvorcamentos\app\Controller\OrcamentosController.php, line 28]
+2012-10-08 21:59:50 Error: [FatalErrorException] Call to a member function find() on a non-object
+#0 C:\wamp\www\mvorcamentos\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\mvo...', 28)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\mvo...', 28, Array)
+#2 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\mvo...', 28, Array)
+#3 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-08 21:59:58 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\wamp\www\mvorcamentos\app\Controller\OrcamentosController.php, line 28]
+2012-10-08 21:59:58 Error: [FatalErrorException] Call to a member function find() on a non-object
+#0 C:\wamp\www\mvorcamentos\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\mvo...', 28)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\mvo...', 28, Array)
+#2 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\mvo...', 28, Array)
+#3 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-08 22:12:22 Error: Fatal Error (4): syntax error, unexpected T_DOUBLE_ARROW in [C:\wamp\www\mvorcamentos\app\Controller\OrcamentosController.php, line 34]
+2012-10-08 22:12:22 Error: [FatalErrorException] syntax error, unexpected T_DOUBLE_ARROW
+#0 C:\wamp\www\mvorcamentos\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\mvo...', 34)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\mvo...', 34, Array)
+#2 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\mvo...', 34, Array)
+#3 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-08 22:12:56 Error: Fatal Error (1): Call to a member function link() on a non-object in [C:\wamp\www\mvorcamentos\app\Controller\OrcamentosController.php, line 34]
+2012-10-08 22:12:56 Error: [FatalErrorException] Call to a member function link() on a non-object
+#0 C:\wamp\www\mvorcamentos\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\mvo...', 34)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\mvo...', 34, Array)
+#2 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\mvo...', 34, Array)
+#3 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-08 22:14:04 Error: Fatal Error (1): Call to undefined method OrcamentosController::setFlash() in [C:\wamp\www\mvorcamentos\app\Controller\OrcamentosController.php, line 32]
+2012-10-08 22:14:04 Error: [FatalErrorException] Call to undefined method OrcamentosController::setFlash()
+#0 C:\wamp\www\mvorcamentos\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\wamp\www\mvo...', 32)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\wamp\www\mvo...', 32, Array)
+#2 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\wamp\www\mvo...', 32, Array)
+#3 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-08 22:56:05 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\wamp\www\mvorcamentos\app\View\Orcamentos\index.ctp, line 14]
+2012-10-08 22:56:05 Error: [FatalErrorException] syntax error, unexpected ';'
+#0 C:\wamp\www\mvorcamentos\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\mvo...', 14)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\mvo...', 14, Array)
+#2 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\mvo...', 14, Array)
+#3 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-08 22:56:22 Error: [MissingActionException] Action OrcamentosController::view() could not be found.
+#0 C:\wamp\www\mvorcamentos\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\mvorcamentos\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(OrcamentosController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\mvorcamentos\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-10-08 23:49:02 Error: [MissingControllerException] Controller class MateriaisController could not be found.
+#0 C:\wamp\www\mvorcamentos\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-08 23:52:06 Error: [MissingViewException] View file "C:\wamp\www\mvorcamentos\app\View\Materiais\add.ctp" is missing.
+#0 C:\wamp\www\mvorcamentos\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\wamp\www\mvorcamentos\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\wamp\www\mvorcamentos\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\wamp\www\mvorcamentos\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(MateriaisController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\mvorcamentos\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-10-08 23:52:58 Error: Fatal Error (4): syntax error, unexpected T_VARIABLE, expecting T_FUNCTION in [C:\wamp\www\mvorcamentos\app\Model\Material.php, line 4]
+2012-10-08 23:52:58 Error: [FatalErrorException] syntax error, unexpected T_VARIABLE, expecting T_FUNCTION
+#0 C:\wamp\www\mvorcamentos\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\mvo...', 4)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\mvo...', 4, Array)
+#2 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\mvo...', 4, Array)
+#3 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-08 23:53:54 Error: [MissingTableException] Table materials for model Material was not found in datasource default.
+#0 C:\wamp\www\mvorcamentos\lib\Cake\Model\Model.php(3179): Model->setSource('materials')
+#1 C:\wamp\www\mvorcamentos\lib\Cake\Model\Model.php(1301): Model->getDataSource()
+#2 C:\wamp\www\mvorcamentos\lib\Cake\View\Helper\FormHelper.php(197): Model->schema()
+#3 C:\wamp\www\mvorcamentos\lib\Cake\View\Helper\FormHelper.php(436): FormHelper->_introspectModel('Material', 'fields')
+#4 C:\wamp\www\mvorcamentos\app\View\Materiais\add.ctp(2): FormHelper->create('Material', Array)
+#5 C:\wamp\www\mvorcamentos\lib\Cake\View\View.php(920): include('C:\wamp\www\mvo...')
+#6 C:\wamp\www\mvorcamentos\lib\Cake\View\View.php(883): View->_evaluate('C:\wamp\www\mvo...', Array)
+#7 C:\wamp\www\mvorcamentos\lib\Cake\View\View.php(475): View->_render('C:\wamp\www\mvo...')
+#8 C:\wamp\www\mvorcamentos\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#9 C:\wamp\www\mvorcamentos\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#10 C:\wamp\www\mvorcamentos\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(MateriaisController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\mvorcamentos\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-10-08 23:57:14 Error: [MissingViewException] View file "C:\wamp\www\mvorcamentos\app\View\Materials\add.ctp" is missing.
+#0 C:\wamp\www\mvorcamentos\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\wamp\www\mvorcamentos\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\wamp\www\mvorcamentos\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\wamp\www\mvorcamentos\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(MaterialsController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\mvorcamentos\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-10-08 23:57:28 Error: [MissingTableException] Table materials for model Material was not found in datasource default.
+#0 C:\wamp\www\mvorcamentos\lib\Cake\Model\Model.php(3179): Model->setSource('materials')
+#1 C:\wamp\www\mvorcamentos\lib\Cake\Model\Model.php(1301): Model->getDataSource()
+#2 C:\wamp\www\mvorcamentos\lib\Cake\View\Helper\FormHelper.php(197): Model->schema()
+#3 C:\wamp\www\mvorcamentos\lib\Cake\View\Helper\FormHelper.php(436): FormHelper->_introspectModel('Material', 'fields')
+#4 C:\wamp\www\mvorcamentos\app\View\Materials\add.ctp(2): FormHelper->create('Material', Array)
+#5 C:\wamp\www\mvorcamentos\lib\Cake\View\View.php(920): include('C:\wamp\www\mvo...')
+#6 C:\wamp\www\mvorcamentos\lib\Cake\View\View.php(883): View->_evaluate('C:\wamp\www\mvo...', Array)
+#7 C:\wamp\www\mvorcamentos\lib\Cake\View\View.php(475): View->_render('C:\wamp\www\mvo...')
+#8 C:\wamp\www\mvorcamentos\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#9 C:\wamp\www\mvorcamentos\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#10 C:\wamp\www\mvorcamentos\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(MaterialsController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\mvorcamentos\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-10-08 23:59:07 Error: [MissingControllerException] Controller class MateriaisController could not be found.
+#0 C:\wamp\www\mvorcamentos\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-09 01:50:44 Error: Fatal Error (1): Cannot use object of type Material as array in [C:\wamp\www\mvorcamentos\lib\Cake\View\Helper\FormHelper.php, line 330]
+2012-10-09 01:50:44 Error: [FatalErrorException] Cannot use object of type Material as array
+#0 C:\wamp\www\mvorcamentos\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Cannot use obje...', 'C:\wamp\www\mvo...', 330)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot use obje...', 'C:\wamp\www\mvo...', 330, Array)
+#2 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Cannot use obje...', 'C:\wamp\www\mvo...', 330, Array)
+#3 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-09 01:53:22 Error: Fatal Error (4): syntax error, unexpected T_DOUBLE_ARROW in [C:\wamp\www\mvorcamentos\app\Controller\MaterialsController.php, line 20]
+2012-10-09 01:53:22 Error: [FatalErrorException] syntax error, unexpected T_DOUBLE_ARROW
+#0 C:\wamp\www\mvorcamentos\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\mvo...', 20)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\mvo...', 20, Array)
+#2 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\mvo...', 20, Array)
+#3 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-09 02:24:58 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\wamp\www\mvorcamentos\app\Controller\MaterialsController.php, line 13]
+2012-10-09 02:24:58 Error: [FatalErrorException] syntax error, unexpected ';'
+#0 C:\wamp\www\mvorcamentos\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\mvo...', 13)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\mvo...', 13, Array)
+#2 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\mvo...', 13, Array)
+#3 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-09 02:25:08 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\wamp\www\mvorcamentos\app\Controller\MaterialsController.php, line 13]
+2012-10-09 02:25:08 Error: [FatalErrorException] syntax error, unexpected ';'
+#0 C:\wamp\www\mvorcamentos\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\mvo...', 13)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\mvo...', 13, Array)
+#2 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\mvo...', 13, Array)
+#3 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-09 02:25:28 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'valor_unitario' cannot be null
+#0 C:\wamp\www\mvorcamentos\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\wamp\www\mvorcamentos\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('INSERT INTO `mv...', Array)
+#2 C:\wamp\www\mvorcamentos\lib\Cake\Model\Datasource\DboSource.php(1009): DboSource->execute('INSERT INTO `mv...')
+#3 C:\wamp\www\mvorcamentos\lib\Cake\Model\Model.php(1730): DboSource->create(Object(Material), Array, Array)
+#4 C:\wamp\www\mvorcamentos\app\Controller\MaterialsController.php(10): Model->save(Array)
+#5 [internal function]: MaterialsController->add('1')
+#6 C:\wamp\www\mvorcamentos\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(MaterialsController), Array)
+#7 C:\wamp\www\mvorcamentos\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\www\mvorcamentos\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(MaterialsController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\wamp\www\mvorcamentos\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-10-09 02:45:03 Error: [MissingViewException] View file "C:\wamp\www\mvorcamentos\app\View\Materials\edit.ctp" is missing.
+#0 C:\wamp\www\mvorcamentos\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\wamp\www\mvorcamentos\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\wamp\www\mvorcamentos\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\wamp\www\mvorcamentos\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(MaterialsController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\mvorcamentos\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-10-09 03:08:46 Error: Fatal Error (4): syntax error, unexpected '[', expecting ')' in [C:\wamp\www\mvorcamentos\app\Controller\MaterialsController.php, line 31]
+2012-10-09 03:08:46 Error: [FatalErrorException] syntax error, unexpected '[', expecting ')'
+#0 C:\wamp\www\mvorcamentos\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\mvo...', 31)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\mvo...', 31, Array)
+#2 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\mvo...', 31, Array)
+#3 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-09 17:07:14 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\wamp\www\mvorcamentos\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-09 17:07:14 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\wamp\www\mvorcamentos\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-09 17:07:14 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\wamp\www\mvorcamentos\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-09 17:07:14 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\wamp\www\mvorcamentos\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-09 17:07:14 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\wamp\www\mvorcamentos\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-09 17:07:14 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\wamp\www\mvorcamentos\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-09 17:07:24 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\wamp\www\mvorcamentos\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-09 17:07:24 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\wamp\www\mvorcamentos\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-09 17:07:24 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\wamp\www\mvorcamentos\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-09 17:07:24 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\wamp\www\mvorcamentos\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-09 17:07:24 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\wamp\www\mvorcamentos\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-09 17:07:24 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\wamp\www\mvorcamentos\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-09 17:07:26 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\wamp\www\mvorcamentos\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-09 17:07:26 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\wamp\www\mvorcamentos\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-09 17:07:26 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\wamp\www\mvorcamentos\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-09 17:07:26 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\wamp\www\mvorcamentos\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-09 17:07:26 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\wamp\www\mvorcamentos\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-09 17:07:26 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\wamp\www\mvorcamentos\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-09 17:08:15 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\wamp\www\mvorcamentos\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-09 17:08:15 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\wamp\www\mvorcamentos\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-09 17:08:15 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\wamp\www\mvorcamentos\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-09 17:08:15 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\wamp\www\mvorcamentos\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-09 17:08:15 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\wamp\www\mvorcamentos\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-09 17:08:15 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\wamp\www\mvorcamentos\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-09 17:08:21 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\wamp\www\mvorcamentos\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-09 17:08:21 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\wamp\www\mvorcamentos\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-09 17:08:21 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\wamp\www\mvorcamentos\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-09 17:08:21 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\wamp\www\mvorcamentos\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-09 17:08:21 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\wamp\www\mvorcamentos\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-09 17:08:21 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\wamp\www\mvorcamentos\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-09 17:09:43 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\wamp\www\mvorcamentos\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-09 17:09:43 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\wamp\www\mvorcamentos\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-09 17:09:43 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\wamp\www\mvorcamentos\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-09 17:09:43 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\wamp\www\mvorcamentos\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-09 17:09:43 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\wamp\www\mvorcamentos\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-09 17:09:43 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\wamp\www\mvorcamentos\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-09 17:11:00 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\wamp\www\mvorcamentos\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-09 17:11:00 Error: [MissingControllerException] Controller class ImagController could not be found.
+#0 C:\wamp\www\mvorcamentos\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-09 17:11:00 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\wamp\www\mvorcamentos\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-09 17:11:00 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\wamp\www\mvorcamentos\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-09 17:11:00 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\wamp\www\mvorcamentos\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-09 17:11:00 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 C:\wamp\www\mvorcamentos\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-09 17:22:56 Error: [MissingControllerException] Controller class IndexController could not be found.
+#0 C:\wamp\www\mvorcamentos\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-09 17:27:12 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'valor_bruto' cannot be null
+#0 C:\wamp\www\mvorcamentos\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\wamp\www\mvorcamentos\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('INSERT INTO `mv...', Array)
+#2 C:\wamp\www\mvorcamentos\lib\Cake\Model\Datasource\DboSource.php(1009): DboSource->execute('INSERT INTO `mv...')
+#3 C:\wamp\www\mvorcamentos\lib\Cake\Model\Model.php(1730): DboSource->create(Object(Orcamento), Array, Array)
+#4 C:\wamp\www\mvorcamentos\app\Controller\OrcamentosController.php(18): Model->save(Array)
+#5 [internal function]: OrcamentosController->add()
+#6 C:\wamp\www\mvorcamentos\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(OrcamentosController), Array)
+#7 C:\wamp\www\mvorcamentos\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\www\mvorcamentos\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(OrcamentosController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\wamp\www\mvorcamentos\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-10-09 18:12:27 Error: Fatal Error (4): syntax error, unexpected ';', expecting T_FUNCTION in [C:\wamp\www\mvorcamentos\app\Controller\OrcamentosController.php, line 12]
+2012-10-09 18:12:27 Error: [FatalErrorException] syntax error, unexpected ';', expecting T_FUNCTION
+#0 C:\wamp\www\mvorcamentos\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\mvo...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\mvo...', 12, Array)
+#2 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\mvo...', 12, Array)
+#3 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-09 21:00:40 Error: Fatal Error (4): syntax error, unexpected '&' in [C:\wamp\www\mvorcamentos\app\View\Orcamentos\view.ctp, line 24]
+2012-10-09 21:00:40 Error: [FatalErrorException] syntax error, unexpected '&'
+#0 C:\wamp\www\mvorcamentos\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\mvo...', 24)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\mvo...', 24, Array)
+#2 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\mvo...', 24, Array)
+#3 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-09 21:01:44 Error: [MissingActionException] Action MaterialsController::deletar() could not be found.
+#0 C:\wamp\www\mvorcamentos\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\mvorcamentos\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(MaterialsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\mvorcamentos\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-10-09 21:04:30 Error: [MissingActionException] Action MaterialsController::deletar() could not be found.
+#0 C:\wamp\www\mvorcamentos\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\mvorcamentos\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(MaterialsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\mvorcamentos\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-10-09 21:05:07 Error: [MissingViewException] View file "C:\wamp\www\mvorcamentos\app\View\Materials\delete.ctp" is missing.
+#0 C:\wamp\www\mvorcamentos\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\wamp\www\mvorcamentos\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\wamp\www\mvorcamentos\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\wamp\www\mvorcamentos\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(MaterialsController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\mvorcamentos\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-10-09 21:19:10 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\wamp\www\mvorcamentos\app\View\Orcamentos\view.ctp, line 34]
+2012-10-09 21:19:10 Error: [FatalErrorException] syntax error, unexpected ';'
+#0 C:\wamp\www\mvorcamentos\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\mvo...', 34)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\mvo...', 34, Array)
+#2 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\mvo...', 34, Array)
+#3 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-09 21:43:13 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\mvorcamentos\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-09 21:44:03 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 C:\wamp\www\mvorcamentos\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-09 23:23:04 Error: [MissingViewException] View file "C:\wamp\www\mvorcamentos\app\View\Employees\edit.ctp" is missing.
+#0 C:\wamp\www\mvorcamentos\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\wamp\www\mvorcamentos\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\wamp\www\mvorcamentos\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\wamp\www\mvorcamentos\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(EmployeesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\mvorcamentos\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-10-09 23:45:41 Error: Fatal Error (1): Call to a member function create() on a non-object in [C:\wamp\www\mvorcamentos\app\Controller\ExpensesController.php, line 8]
+2012-10-09 23:45:41 Error: [FatalErrorException] Call to a member function create() on a non-object
+#0 C:\wamp\www\mvorcamentos\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\mvo...', 8)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\mvo...', 8, Array)
+#2 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\mvo...', 8, Array)
+#3 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-09 23:49:46 Error: [MissingViewException] View file "C:\wamp\www\mvorcamentos\app\View\Expenses\edit.ctp" is missing.
+#0 C:\wamp\www\mvorcamentos\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\wamp\www\mvorcamentos\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\wamp\www\mvorcamentos\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\wamp\www\mvorcamentos\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ExpensesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\mvorcamentos\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-10-10 00:18:52 Error: [MissingViewException] View file "C:\wamp\www\mvorcamentos\app\View\Expenses\edit.ctp" is missing.
+#0 C:\wamp\www\mvorcamentos\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\wamp\www\mvorcamentos\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\wamp\www\mvorcamentos\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\wamp\www\mvorcamentos\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ExpensesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\mvorcamentos\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-10-10 00:22:02 Error: Fatal Error (4): syntax error, unexpected T_VARIABLE in [C:\wamp\www\mvorcamentos\app\View\Orcamentos\view.ctp, line 56]
+2012-10-10 00:22:02 Error: [FatalErrorException] syntax error, unexpected T_VARIABLE
+#0 C:\wamp\www\mvorcamentos\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\mvo...', 56)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\mvo...', 56, Array)
+#2 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\mvo...', 56, Array)
+#3 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-10 00:22:42 Error: Fatal Error (4): syntax error, unexpected T_ELSE, expecting ';' in [C:\wamp\www\mvorcamentos\app\View\Orcamentos\view.ctp, line 82]
+2012-10-10 00:22:42 Error: [FatalErrorException] syntax error, unexpected T_ELSE, expecting ';'
+#0 C:\wamp\www\mvorcamentos\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\mvo...', 82)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\mvo...', 82, Array)
+#2 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\mvo...', 82, Array)
+#3 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-10 00:23:09 Error: Fatal Error (4): syntax error, unexpected T_ELSE in [C:\wamp\www\mvorcamentos\app\View\Orcamentos\view.ctp, line 82]
+2012-10-10 00:23:09 Error: [FatalErrorException] syntax error, unexpected T_ELSE
+#0 C:\wamp\www\mvorcamentos\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\mvo...', 82)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\mvo...', 82, Array)
+#2 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\mvo...', 82, Array)
+#3 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-10 00:23:45 Error: Fatal Error (4): syntax error, unexpected T_ECHO, expecting ':' in [C:\wamp\www\mvorcamentos\app\View\Orcamentos\view.ctp, line 82]
+2012-10-10 00:23:45 Error: [FatalErrorException] syntax error, unexpected T_ECHO, expecting ':'
+#0 C:\wamp\www\mvorcamentos\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\mvo...', 82)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\mvo...', 82, Array)
+#2 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\mvo...', 82, Array)
+#3 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-10 00:23:55 Error: Fatal Error (4): syntax error, unexpected T_ELSE, expecting ';' in [C:\wamp\www\mvorcamentos\app\View\Orcamentos\view.ctp, line 133]
+2012-10-10 00:23:55 Error: [FatalErrorException] syntax error, unexpected T_ELSE, expecting ';'
+#0 C:\wamp\www\mvorcamentos\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\mvo...', 133)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\mvo...', 133, Array)
+#2 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\mvo...', 133, Array)
+#3 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-10 00:24:23 Error: Fatal Error (4): syntax error, unexpected $end in [C:\wamp\www\mvorcamentos\app\View\Orcamentos\view.ctp, line 133]
+2012-10-10 00:24:23 Error: [FatalErrorException] syntax error, unexpected $end
+#0 C:\wamp\www\mvorcamentos\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\mvo...', 133)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\mvo...', 133, Array)
+#2 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\mvo...', 133, Array)
+#3 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-10 00:25:14 Error: Fatal Error (4): syntax error, unexpected $end in [C:\wamp\www\mvorcamentos\app\View\Orcamentos\view.ctp, line 133]
+2012-10-10 00:25:14 Error: [FatalErrorException] syntax error, unexpected $end
+#0 C:\wamp\www\mvorcamentos\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\mvo...', 133)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\mvo...', 133, Array)
+#2 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\mvo...', 133, Array)
+#3 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-10 00:25:31 Error: Fatal Error (4): syntax error, unexpected $end in [C:\wamp\www\mvorcamentos\app\View\Orcamentos\view.ctp, line 133]
+2012-10-10 00:25:31 Error: [FatalErrorException] syntax error, unexpected $end
+#0 C:\wamp\www\mvorcamentos\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\mvo...', 133)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\mvo...', 133, Array)
+#2 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\mvo...', 133, Array)
+#3 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-10 00:25:33 Error: Fatal Error (4): syntax error, unexpected $end in [C:\wamp\www\mvorcamentos\app\View\Orcamentos\view.ctp, line 133]
+2012-10-10 00:25:33 Error: [FatalErrorException] syntax error, unexpected $end
+#0 C:\wamp\www\mvorcamentos\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\mvo...', 133)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\mvo...', 133, Array)
+#2 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\mvo...', 133, Array)
+#3 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-10 00:25:45 Error: Fatal Error (4): syntax error, unexpected $end in [C:\wamp\www\mvorcamentos\app\View\Orcamentos\view.ctp, line 133]
+2012-10-10 00:25:45 Error: [FatalErrorException] syntax error, unexpected $end
+#0 C:\wamp\www\mvorcamentos\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\mvo...', 133)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\mvo...', 133, Array)
+#2 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\mvo...', 133, Array)
+#3 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-10 00:30:52 Error: Fatal Error (4): syntax error, unexpected '<' in [C:\wamp\www\mvorcamentos\app\View\Orcamentos\view.ctp, line 111]
+2012-10-10 00:30:52 Error: [FatalErrorException] syntax error, unexpected '<'
+#0 C:\wamp\www\mvorcamentos\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\mvo...', 111)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\mvo...', 111, Array)
+#2 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\mvo...', 111, Array)
+#3 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-10 19:28:02 Error: [MissingViewException] View file "C:\wamp\www\mvorcamentos\app\View\Expenses\edit.ctp" is missing.
+#0 C:\wamp\www\mvorcamentos\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\wamp\www\mvorcamentos\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\wamp\www\mvorcamentos\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\wamp\www\mvorcamentos\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ExpensesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\mvorcamentos\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-10-10 19:47:59 Error: Fatal Error (4): syntax error, unexpected '?' in [C:\wamp\www\mvorcamentos\app\View\Orcamentos\view.ctp, line 23]
+2012-10-10 19:47:59 Error: [FatalErrorException] syntax error, unexpected '?'
+#0 C:\wamp\www\mvorcamentos\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\mvo...', 23)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\mvo...', 23, Array)
+#2 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\mvo...', 23, Array)
+#3 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-10 19:53:43 Error: Fatal Error (4): syntax error, unexpected '?' in [C:\wamp\www\mvorcamentos\app\View\Clientes\index.ctp, line 23]
+2012-10-10 19:53:43 Error: [FatalErrorException] syntax error, unexpected '?'
+#0 C:\wamp\www\mvorcamentos\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\mvo...', 23)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\mvo...', 23, Array)
+#2 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\mvo...', 23, Array)
+#3 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-10 19:54:26 Error: Fatal Error (1): Cannot unset string offsets in [C:\wamp\www\mvorcamentos\lib\Cake\View\Helper\HtmlHelper.php, line 355]
+2012-10-10 19:54:26 Error: [FatalErrorException] Cannot unset string offsets
+#0 C:\wamp\www\mvorcamentos\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Cannot unset st...', 'C:\wamp\www\mvo...', 355)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot unset st...', 'C:\wamp\www\mvo...', 355, Array)
+#2 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Cannot unset st...', 'C:\wamp\www\mvo...', 355, Array)
+#3 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-10 19:54:43 Error: Fatal Error (1): Cannot unset string offsets in [C:\wamp\www\mvorcamentos\lib\Cake\View\Helper\HtmlHelper.php, line 355]
+2012-10-10 19:54:43 Error: [FatalErrorException] Cannot unset string offsets
+#0 C:\wamp\www\mvorcamentos\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Cannot unset st...', 'C:\wamp\www\mvo...', 355)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot unset st...', 'C:\wamp\www\mvo...', 355, Array)
+#2 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Cannot unset st...', 'C:\wamp\www\mvo...', 355, Array)
+#3 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-10 19:55:07 Error: Fatal Error (1): Cannot unset string offsets in [C:\wamp\www\mvorcamentos\lib\Cake\View\Helper\HtmlHelper.php, line 355]
+2012-10-10 19:55:07 Error: [FatalErrorException] Cannot unset string offsets
+#0 C:\wamp\www\mvorcamentos\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Cannot unset st...', 'C:\wamp\www\mvo...', 355)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot unset st...', 'C:\wamp\www\mvo...', 355, Array)
+#2 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Cannot unset st...', 'C:\wamp\www\mvo...', 355, Array)
+#3 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-10 21:01:31 Error: Fatal Error (4): syntax error, unexpected '<' in [C:\wamp\www\mvorcamentos\app\View\Orcamentos\index.ctp, line 33]
+2012-10-10 21:01:31 Error: [FatalErrorException] syntax error, unexpected '<'
+#0 C:\wamp\www\mvorcamentos\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\mvo...', 33)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\mvo...', 33, Array)
+#2 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\mvo...', 33, Array)
+#3 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-10 21:07:20 Error: Fatal Error (1): Call to undefined method View::link() in [C:\wamp\www\mvorcamentos\app\View\Orcamentos\index.ctp, line 32]
+2012-10-10 21:07:20 Error: [FatalErrorException] Call to undefined method View::link()
+#0 C:\wamp\www\mvorcamentos\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\wamp\www\mvo...', 32)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\wamp\www\mvo...', 32, Array)
+#2 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\wamp\www\mvo...', 32, Array)
+#3 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-10 21:13:59 Error: Fatal Error (4): syntax error, unexpected T_OBJECT_OPERATOR in [C:\wamp\www\mvorcamentos\app\Controller\OrcamentosController.php, line 60]
+2012-10-10 21:13:59 Error: [FatalErrorException] syntax error, unexpected T_OBJECT_OPERATOR
+#0 C:\wamp\www\mvorcamentos\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\mvo...', 60)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\mvo...', 60, Array)
+#2 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\mvo...', 60, Array)
+#3 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-10 21:15:33 Error: Fatal Error (4): syntax error, unexpected T_OBJECT_OPERATOR in [C:\wamp\www\mvorcamentos\app\Controller\OrcamentosController.php, line 60]
+2012-10-10 21:15:33 Error: [FatalErrorException] syntax error, unexpected T_OBJECT_OPERATOR
+#0 C:\wamp\www\mvorcamentos\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\mvo...', 60)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\mvo...', 60, Array)
+#2 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\mvo...', 60, Array)
+#3 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-10 21:37:09 Error: Fatal Error (1): Call to undefined method OrcamentosController::total_orcamento() in [C:\wamp\www\mvorcamentos\app\Controller\OrcamentosController.php, line 42]
+2012-10-10 21:37:09 Error: [FatalErrorException] Call to undefined method OrcamentosController::total_orcamento()
+#0 C:\wamp\www\mvorcamentos\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\wamp\www\mvo...', 42)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\wamp\www\mvo...', 42, Array)
+#2 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\wamp\www\mvo...', 42, Array)
+#3 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-10 21:37:40 Error: Fatal Error (1): Cannot use object of type Orcamento as array in [C:\wamp\www\mvorcamentos\app\Model\Orcamento.php, line 13]
+2012-10-10 21:37:40 Error: [FatalErrorException] Cannot use object of type Orcamento as array
+#0 C:\wamp\www\mvorcamentos\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Cannot use obje...', 'C:\wamp\www\mvo...', 13)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot use obje...', 'C:\wamp\www\mvo...', 13, Array)
+#2 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Cannot use obje...', 'C:\wamp\www\mvo...', 13, Array)
+#3 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-10 21:38:20 Error: Fatal Error (1): Cannot use object of type Orcamento as array in [C:\wamp\www\mvorcamentos\app\Model\Orcamento.php, line 13]
+2012-10-10 21:38:20 Error: [FatalErrorException] Cannot use object of type Orcamento as array
+#0 C:\wamp\www\mvorcamentos\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Cannot use obje...', 'C:\wamp\www\mvo...', 13)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot use obje...', 'C:\wamp\www\mvo...', 13, Array)
+#2 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Cannot use obje...', 'C:\wamp\www\mvo...', 13, Array)
+#3 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-10 21:38:38 Error: Fatal Error (1): Unsupported operand types in [C:\wamp\www\mvorcamentos\app\Model\Orcamento.php, line 14]
+2012-10-10 21:38:38 Error: [FatalErrorException] Unsupported operand types
+#0 C:\wamp\www\mvorcamentos\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Unsupported ope...', 'C:\wamp\www\mvo...', 14)
+#1 [internal function]: ErrorHandler::handleError(1, 'Unsupported ope...', 'C:\wamp\www\mvo...', 14, Array)
+#2 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Unsupported ope...', 'C:\wamp\www\mvo...', 14, Array)
+#3 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-10 21:38:59 Error: Fatal Error (1): Unsupported operand types in [C:\wamp\www\mvorcamentos\app\Model\Orcamento.php, line 14]
+2012-10-10 21:38:59 Error: [FatalErrorException] Unsupported operand types
+#0 C:\wamp\www\mvorcamentos\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Unsupported ope...', 'C:\wamp\www\mvo...', 14)
+#1 [internal function]: ErrorHandler::handleError(1, 'Unsupported ope...', 'C:\wamp\www\mvo...', 14, Array)
+#2 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Unsupported ope...', 'C:\wamp\www\mvo...', 14, Array)
+#3 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-10 21:39:52 Error: Fatal Error (1): Unsupported operand types in [C:\wamp\www\mvorcamentos\app\Model\Orcamento.php, line 14]
+2012-10-10 21:39:52 Error: [FatalErrorException] Unsupported operand types
+#0 C:\wamp\www\mvorcamentos\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Unsupported ope...', 'C:\wamp\www\mvo...', 14)
+#1 [internal function]: ErrorHandler::handleError(1, 'Unsupported ope...', 'C:\wamp\www\mvo...', 14, Array)
+#2 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Unsupported ope...', 'C:\wamp\www\mvo...', 14, Array)
+#3 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-10 21:40:28 Error: Fatal Error (1): Unsupported operand types in [C:\wamp\www\mvorcamentos\app\Model\Orcamento.php, line 14]
+2012-10-10 21:40:28 Error: [FatalErrorException] Unsupported operand types
+#0 C:\wamp\www\mvorcamentos\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Unsupported ope...', 'C:\wamp\www\mvo...', 14)
+#1 [internal function]: ErrorHandler::handleError(1, 'Unsupported ope...', 'C:\wamp\www\mvo...', 14, Array)
+#2 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Unsupported ope...', 'C:\wamp\www\mvo...', 14, Array)
+#3 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-10 21:44:26 Error: Fatal Error (1): Unsupported operand types in [C:\wamp\www\mvorcamentos\app\Model\Orcamento.php, line 15]
+2012-10-10 21:44:26 Error: [FatalErrorException] Unsupported operand types
+#0 C:\wamp\www\mvorcamentos\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Unsupported ope...', 'C:\wamp\www\mvo...', 15)
+#1 [internal function]: ErrorHandler::handleError(1, 'Unsupported ope...', 'C:\wamp\www\mvo...', 15, Array)
+#2 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Unsupported ope...', 'C:\wamp\www\mvo...', 15, Array)
+#3 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-10 21:44:56 Error: Fatal Error (1): Call to undefined function to_i() in [C:\wamp\www\mvorcamentos\app\Model\Orcamento.php, line 15]
+2012-10-10 21:44:56 Error: [FatalErrorException] Call to undefined function to_i()
+#0 C:\wamp\www\mvorcamentos\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\wamp\www\mvo...', 15)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\wamp\www\mvo...', 15, Array)
+#2 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\wamp\www\mvo...', 15, Array)
+#3 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-10 21:45:52 Error: Fatal Error (4): syntax error, unexpected T_VARIABLE in [C:\wamp\www\mvorcamentos\app\View\Orcamentos\view.ctp, line 145]
+2012-10-10 21:45:52 Error: [FatalErrorException] syntax error, unexpected T_VARIABLE
+#0 C:\wamp\www\mvorcamentos\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\mvo...', 145)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\mvo...', 145, Array)
+#2 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\mvo...', 145, Array)
+#3 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-12 02:03:46 Error: Fatal Error (4): syntax error, unexpected T_DOUBLE_ARROW, expecting ',' or ';' in [C:\wamp\www\mvorcamentos\app\Model\Expense.php, line 7]
+2012-10-12 02:03:46 Error: [FatalErrorException] syntax error, unexpected T_DOUBLE_ARROW, expecting ',' or ';'
+#0 C:\wamp\www\mvorcamentos\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\mvo...', 7)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\mvo...', 7, Array)
+#2 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\mvo...', 7, Array)
+#3 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-12 02:04:19 Error: Fatal Error (4): syntax error, unexpected ';', expecting ')' in [C:\wamp\www\mvorcamentos\app\Model\Expense.php, line 7]
+2012-10-12 02:04:19 Error: [FatalErrorException] syntax error, unexpected ';', expecting ')'
+#0 C:\wamp\www\mvorcamentos\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\mvo...', 7)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\mvo...', 7, Array)
+#2 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\mvo...', 7, Array)
+#3 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-12 04:46:06 Error: Fatal Error (4): syntax error, unexpected T_STRING, expecting T_VARIABLE in [C:\wamp\www\mvorcamentos\app\Model\Expense.php, line 13]
+2012-10-12 04:46:06 Error: [FatalErrorException] syntax error, unexpected T_STRING, expecting T_VARIABLE
+#0 C:\wamp\www\mvorcamentos\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\mvo...', 13)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\mvo...', 13, Array)
+#2 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\mvo...', 13, Array)
+#3 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-12 13:47:42 Error: Fatal Error (4): syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')' in [C:\wamp\www\mvorcamentos\app\Model\Cliente.php, line 13]
+2012-10-12 13:47:42 Error: [FatalErrorException] syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')'
+#0 C:\wamp\www\mvorcamentos\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\mvo...', 13)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\mvo...', 13, Array)
+#2 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\mvo...', 13, Array)
+#3 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-12 14:32:31 Error: [MissingControllerException] Controller class AdminController could not be found.
+#0 C:\wamp\www\mvorcamentos\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-12 14:38:35 Error: Fatal Error (4): syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')' in [C:\wamp\www\mvorcamentos\app\Controller\AppController.php, line 40]
+2012-10-12 14:38:35 Error: [FatalErrorException] syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')'
+#0 C:\wamp\www\mvorcamentos\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\mvo...', 40)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\mvo...', 40, Array)
+#2 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\mvo...', 40, Array)
+#3 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-12 15:01:25 Error: [MissingControllerException] Controller class LoginController could not be found.
+#0 C:\wamp\www\mvorcamentos\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-12 15:01:30 Error: [MissingActionException] Action UsersController::index() could not be found.
+#0 C:\wamp\www\mvorcamentos\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\mvorcamentos\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\mvorcamentos\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-10-12 15:11:38 Error: Fatal Error (64): Can't use method return value in write context in [C:\wamp\www\mvorcamentos\app\Controller\AppController.php, line 46]
+2012-10-12 15:11:38 Error: [FatalErrorException] Can't use method return value in write context
+#0 C:\wamp\www\mvorcamentos\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Can't use metho...', 'C:\wamp\www\mvo...', 46)
+#1 [internal function]: ErrorHandler::handleError(64, 'Can't use metho...', 'C:\wamp\www\mvo...', 46, Array)
+#2 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 64, 'Can't use metho...', 'C:\wamp\www\mvo...', 46, Array)
+#3 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-12 15:14:07 Error: Fatal Error (64): Can't use method return value in write context in [C:\wamp\www\mvorcamentos\app\Controller\AppController.php, line 46]
+2012-10-12 15:14:07 Error: [FatalErrorException] Can't use method return value in write context
+#0 C:\wamp\www\mvorcamentos\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Can't use metho...', 'C:\wamp\www\mvo...', 46)
+#1 [internal function]: ErrorHandler::handleError(64, 'Can't use metho...', 'C:\wamp\www\mvo...', 46, Array)
+#2 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 64, 'Can't use metho...', 'C:\wamp\www\mvo...', 46, Array)
+#3 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-12 15:14:12 Error: Fatal Error (64): Can't use method return value in write context in [C:\wamp\www\mvorcamentos\app\Controller\AppController.php, line 46]
+2012-10-12 15:14:12 Error: [FatalErrorException] Can't use method return value in write context
+#0 C:\wamp\www\mvorcamentos\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Can't use metho...', 'C:\wamp\www\mvo...', 46)
+#1 [internal function]: ErrorHandler::handleError(64, 'Can't use metho...', 'C:\wamp\www\mvo...', 46, Array)
+#2 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 64, 'Can't use metho...', 'C:\wamp\www\mvo...', 46, Array)
+#3 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-12 15:15:42 Error: [MissingViewException] View file "C:\wamp\www\mvorcamentos\app\View\Users\logout.ctp" is missing.
+#0 C:\wamp\www\mvorcamentos\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\wamp\www\mvorcamentos\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\wamp\www\mvorcamentos\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\wamp\www\mvorcamentos\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\mvorcamentos\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-10-12 15:20:14 Error: Fatal Error (64): Can't use method return value in write context in [C:\wamp\www\mvorcamentos\app\Controller\AppController.php, line 46]
+2012-10-12 15:20:14 Error: [FatalErrorException] Can't use method return value in write context
+#0 C:\wamp\www\mvorcamentos\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Can't use metho...', 'C:\wamp\www\mvo...', 46)
+#1 [internal function]: ErrorHandler::handleError(64, 'Can't use metho...', 'C:\wamp\www\mvo...', 46, Array)
+#2 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 64, 'Can't use metho...', 'C:\wamp\www\mvo...', 46, Array)
+#3 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-12 15:23:09 Error: Fatal Error (4): syntax error, unexpected '&' in [C:\wamp\www\mvorcamentos\app\Controller\AppController.php, line 47]
+2012-10-12 15:23:09 Error: [FatalErrorException] syntax error, unexpected '&'
+#0 C:\wamp\www\mvorcamentos\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\mvo...', 47)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\mvo...', 47, Array)
+#2 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\mvo...', 47, Array)
+#3 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-12 15:23:49 Error: Fatal Error (4): syntax error, unexpected '&' in [C:\wamp\www\mvorcamentos\app\Controller\AppController.php, line 48]
+2012-10-12 15:23:49 Error: [FatalErrorException] syntax error, unexpected '&'
+#0 C:\wamp\www\mvorcamentos\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\mvo...', 48)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\mvo...', 48, Array)
+#2 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\mvo...', 48, Array)
+#3 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-12 19:12:29 Error: Fatal Error (4): syntax error, unexpected T_OBJECT_OPERATOR, expecting ',' or ';' in [C:\wamp\www\mvorcamentos\app\View\Orcamentos\index.ctp, line 36]
+2012-10-12 19:12:29 Error: [FatalErrorException] syntax error, unexpected T_OBJECT_OPERATOR, expecting ',' or ';'
+#0 C:\wamp\www\mvorcamentos\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\mvo...', 36)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\mvo...', 36, Array)
+#2 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\mvo...', 36, Array)
+#3 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-12 19:14:10 Error: Fatal Error (4): syntax error, unexpected T_OBJECT_OPERATOR, expecting ',' or ';' in [C:\wamp\www\mvorcamentos\app\View\Orcamentos\index.ctp, line 38]
+2012-10-12 19:14:10 Error: [FatalErrorException] syntax error, unexpected T_OBJECT_OPERATOR, expecting ',' or ';'
+#0 C:\wamp\www\mvorcamentos\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\mvo...', 38)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\mvo...', 38, Array)
+#2 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\mvo...', 38, Array)
+#3 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-12 19:14:46 Error: Fatal Error (1): Call to undefined method OrcamentosController::__view() in [C:\wamp\www\mvorcamentos\app\Controller\OrcamentosController.php, line 96]
+2012-10-12 19:14:46 Error: [InternalErrorException] Internal Server Error
+#0 C:\wamp\www\mvorcamentos\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\wamp\www\mvo...', 96)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\wamp\www\mvo...', 96, Array)
+#2 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\wamp\www\mvo...', 96, Array)
+#3 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-12 19:15:46 Error: [MissingViewException] View file "C:\wamp\www\mvorcamentos\app\View\Orcamentos\view_pdf.ctp" is missing.
+#0 C:\wamp\www\mvorcamentos\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\wamp\www\mvorcamentos\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\wamp\www\mvorcamentos\app\Controller\OrcamentosController.php(105): Controller->render()
+#3 [internal function]: OrcamentosController->viewPdf('2')
+#4 C:\wamp\www\mvorcamentos\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(OrcamentosController), Array)
+#5 C:\wamp\www\mvorcamentos\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp\www\mvorcamentos\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(OrcamentosController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\wamp\www\mvorcamentos\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-10-12 19:16:36 Error: [MissingActionException] Action OrcamentosController::viewPdf() could not be found.
+#0 C:\wamp\www\mvorcamentos\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\mvorcamentos\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(OrcamentosController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\mvorcamentos\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-10-12 19:16:56 Error: [MissingViewException] View file "C:\wamp\www\mvorcamentos\app\View\Orcamentos\view_pdf.ctp" is missing.
+#0 C:\wamp\www\mvorcamentos\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\wamp\www\mvorcamentos\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\wamp\www\mvorcamentos\app\Controller\OrcamentosController.php(105): Controller->render()
+#3 [internal function]: OrcamentosController->view_pdf('2')
+#4 C:\wamp\www\mvorcamentos\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(OrcamentosController), Array)
+#5 C:\wamp\www\mvorcamentos\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp\www\mvorcamentos\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(OrcamentosController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\wamp\www\mvorcamentos\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-10-12 19:17:27 Error: [MissingViewException] View file "C:\wamp\www\mvorcamentos\app\View\Orcamentos\view_pdf.ctp" is missing.
+#0 C:\wamp\www\mvorcamentos\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\wamp\www\mvorcamentos\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\wamp\www\mvorcamentos\app\Controller\OrcamentosController.php(105): Controller->render()
+#3 [internal function]: OrcamentosController->view_pdf('2')
+#4 C:\wamp\www\mvorcamentos\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(OrcamentosController), Array)
+#5 C:\wamp\www\mvorcamentos\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp\www\mvorcamentos\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(OrcamentosController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\wamp\www\mvorcamentos\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-10-12 19:17:44 Error: [MissingActionException] Action OrcamentosController::view_pdf() could not be found.
+#0 C:\wamp\www\mvorcamentos\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\mvorcamentos\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(OrcamentosController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\mvorcamentos\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-10-12 19:18:01 Error: [MissingViewException] View file "C:\wamp\www\mvorcamentos\app\View\Orcamentos\view_pdf.ctp" is missing.
+#0 C:\wamp\www\mvorcamentos\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\wamp\www\mvorcamentos\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\wamp\www\mvorcamentos\app\Controller\OrcamentosController.php(105): Controller->render()
+#3 [internal function]: OrcamentosController->viewPdf('2')
+#4 C:\wamp\www\mvorcamentos\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(OrcamentosController), Array)
+#5 C:\wamp\www\mvorcamentos\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp\www\mvorcamentos\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(OrcamentosController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\wamp\www\mvorcamentos\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-10-12 19:28:57 Error: Fatal Error (4): syntax error, unexpected T_STRING in [C:\wamp\www\mvorcamentos\app\View\Orcamentos\download.ctp, line 25]
+2012-10-12 19:28:57 Error: [FatalErrorException] syntax error, unexpected T_STRING
+#0 C:\wamp\www\mvorcamentos\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\mvo...', 25)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\mvo...', 25, Array)
+#2 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\mvo...', 25, Array)
+#3 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-12 19:29:15 Error: Fatal Error (4): syntax error, unexpected T_STRING in [C:\wamp\www\mvorcamentos\app\View\Orcamentos\download.ctp, line 25]
+2012-10-12 19:29:15 Error: [FatalErrorException] syntax error, unexpected T_STRING
+#0 C:\wamp\www\mvorcamentos\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\mvo...', 25)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\mvo...', 25, Array)
+#2 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\mvo...', 25, Array)
+#3 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-12 19:49:31 Error: Fatal Error (1): Call to a member function writeHTMLCell() on a non-object in [C:\wamp\www\mvorcamentos\app\View\Orcamentos\download.ctp, line 25]
+2012-10-12 19:49:31 Error: [FatalErrorException] Call to a member function writeHTMLCell() on a non-object
+#0 C:\wamp\www\mvorcamentos\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\mvo...', 25)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\mvo...', 25, Array)
+#2 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\mvo...', 25, Array)
+#3 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-12 19:50:34 Error: Fatal Error (1): Call to a member function writeHTMLCell() on a non-object in [C:\wamp\www\mvorcamentos\app\View\Orcamentos\download.ctp, line 25]
+2012-10-12 19:50:34 Error: [FatalErrorException] Call to a member function writeHTMLCell() on a non-object
+#0 C:\wamp\www\mvorcamentos\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\mvo...', 25)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\mvo...', 25, Array)
+#2 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\mvo...', 25, Array)
+#3 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-12 19:56:26 Error: Fatal Error (4): syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in [C:\wamp\www\mvorcamentos\app\View\Orcamentos\download.ctp, line 24]
+2012-10-12 19:56:26 Error: [FatalErrorException] syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING
+#0 C:\wamp\www\mvorcamentos\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\mvo...', 24)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\mvo...', 24, Array)
+#2 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\mvo...', 24, Array)
+#3 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-12 19:56:55 Error: Fatal Error (4): syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in [C:\wamp\www\mvorcamentos\app\View\Orcamentos\download.ctp, line 24]
+2012-10-12 19:56:55 Error: [FatalErrorException] syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING
+#0 C:\wamp\www\mvorcamentos\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\mvo...', 24)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\mvo...', 24, Array)
+#2 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\mvo...', 24, Array)
+#3 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-12 19:56:59 Error: Fatal Error (4): syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in [C:\wamp\www\mvorcamentos\app\View\Orcamentos\download.ctp, line 24]
+2012-10-12 19:56:59 Error: [FatalErrorException] syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING
+#0 C:\wamp\www\mvorcamentos\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\mvo...', 24)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\mvo...', 24, Array)
+#2 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\mvo...', 24, Array)
+#3 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-12 19:58:02 Error: Fatal Error (4): syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in [C:\wamp\www\mvorcamentos\app\View\Orcamentos\download.ctp, line 25]
+2012-10-12 19:58:02 Error: [FatalErrorException] syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING
+#0 C:\wamp\www\mvorcamentos\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\mvo...', 25)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\mvo...', 25, Array)
+#2 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\mvo...', 25, Array)
+#3 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-12 19:58:08 Error: Fatal Error (4): syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in [C:\wamp\www\mvorcamentos\app\View\Orcamentos\download.ctp, line 24]
+2012-10-12 19:58:08 Error: [FatalErrorException] syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING
+#0 C:\wamp\www\mvorcamentos\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\mvo...', 24)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\mvo...', 24, Array)
+#2 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\mvo...', 24, Array)
+#3 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-12 19:58:16 Error: Fatal Error (4): syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in [C:\wamp\www\mvorcamentos\app\View\Orcamentos\download.ctp, line 24]
+2012-10-12 19:58:16 Error: [FatalErrorException] syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING
+#0 C:\wamp\www\mvorcamentos\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\mvo...', 24)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\mvo...', 24, Array)
+#2 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\mvo...', 24, Array)
+#3 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-12 19:59:46 Error: Fatal Error (4): syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in [C:\wamp\www\mvorcamentos\app\View\Orcamentos\download.ctp, line 24]
+2012-10-12 19:59:46 Error: [FatalErrorException] syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING
+#0 C:\wamp\www\mvorcamentos\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\mvo...', 24)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\mvo...', 24, Array)
+#2 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\mvo...', 24, Array)
+#3 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-12 19:59:50 Error: Fatal Error (4): syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in [C:\wamp\www\mvorcamentos\app\View\Orcamentos\download.ctp, line 24]
+2012-10-12 19:59:50 Error: [FatalErrorException] syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING
+#0 C:\wamp\www\mvorcamentos\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\mvo...', 24)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\mvo...', 24, Array)
+#2 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\mvo...', 24, Array)
+#3 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-12 20:00:15 Error: Fatal Error (4): syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in [C:\wamp\www\mvorcamentos\app\View\Orcamentos\download.ctp, line 25]
+2012-10-12 20:00:15 Error: [FatalErrorException] syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING
+#0 C:\wamp\www\mvorcamentos\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\mvo...', 25)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\mvo...', 25, Array)
+#2 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\mvo...', 25, Array)
+#3 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-12 20:00:38 Error: Fatal Error (4): syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in [C:\wamp\www\mvorcamentos\app\View\Orcamentos\download.ctp, line 26]
+2012-10-12 20:00:38 Error: [FatalErrorException] syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING
+#0 C:\wamp\www\mvorcamentos\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\mvo...', 26)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\mvo...', 26, Array)
+#2 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\mvo...', 26, Array)
+#3 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-12 20:15:38 Error: Fatal Error (4): syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in [C:\wamp\www\mvorcamentos\app\View\Orcamentos\download.ctp, line 25]
+2012-10-12 20:15:38 Error: [FatalErrorException] syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING
+#0 C:\wamp\www\mvorcamentos\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\mvo...', 25)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\mvo...', 25, Array)
+#2 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\mvo...', 25, Array)
+#3 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-12 21:37:08 Error: Fatal Error (1): Class 'TCPDF' not found in [C:\wamp\www\mvorcamentos\app\View\Orcamentos\teste.ctp, line 3]
+2012-10-12 21:37:08 Error: [FatalErrorException] Class 'TCPDF' not found
+#0 C:\wamp\www\mvorcamentos\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'TCPDF' n...', 'C:\wamp\www\mvo...', 3)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'TCPDF' n...', 'C:\wamp\www\mvo...', 3, Array)
+#2 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'TCPDF' n...', 'C:\wamp\www\mvo...', 3, Array)
+#3 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-12 21:46:28 Error: Fatal Error (1): Call to a member function setCellPaddings() on a non-object in [C:\wamp\www\mvorcamentos\app\View\Orcamentos\download.ctp, line 67]
+2012-10-12 21:46:28 Error: [FatalErrorException] Call to a member function setCellPaddings() on a non-object
+#0 C:\wamp\www\mvorcamentos\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\mvo...', 67)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\mvo...', 67, Array)
+#2 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\mvo...', 67, Array)
+#3 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-12 23:00:14 Error: Fatal Error (64): require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required '../config/lang/eng.php' (include_path='C:\wamp\www\mvorcamentos\lib;.;C:\php\pear') in [C:\wamp\www\mvorcamentos\app\View\Orcamentos\teste.ctp, line 32]
+2012-10-12 23:00:14 Error: [FatalErrorException] require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required '../config/lang/eng.php' (include_path='C:\wamp\www\mvorcamentos\lib;.;C:\php\pear')
+#0 C:\wamp\www\mvorcamentos\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'require_once() ...', 'C:\wamp\www\mvo...', 32)
+#1 [internal function]: ErrorHandler::handleError(64, 'require_once() ...', 'C:\wamp\www\mvo...', 32, Array)
+#2 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 64, 'require_once() ...', 'C:\wamp\www\mvo...', 32, Array)
+#3 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-12 23:05:42 Error: Fatal Error (4): syntax error, unexpected '*' in [C:\wamp\www\mvorcamentos\app\View\Orcamentos\download.ctp, line 90]
+2012-10-12 23:05:42 Error: [FatalErrorException] syntax error, unexpected '*'
+#0 C:\wamp\www\mvorcamentos\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\mvo...', 90)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\mvo...', 90, Array)
+#2 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\mvo...', 90, Array)
+#3 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-12 23:05:58 Error: Fatal Error (1): Call to a member function writeHTML() on a non-object in [C:\wamp\www\mvorcamentos\app\View\Orcamentos\download.ctp, line 98]
+2012-10-12 23:05:58 Error: [FatalErrorException] Call to a member function writeHTML() on a non-object
+#0 C:\wamp\www\mvorcamentos\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\mvo...', 98)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\mvo...', 98, Array)
+#2 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\mvo...', 98, Array)
+#3 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-13 16:00:01 Error: Fatal Error (1): Call to undefined method OrcamentosController::total_orcamento() in [C:\wamp\www\mvorcamentos\app\Controller\OrcamentosController.php, line 96]
+2012-10-13 16:00:01 Error: [FatalErrorException] Call to undefined method OrcamentosController::total_orcamento()
+#0 C:\wamp\www\mvorcamentos\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\wamp\www\mvo...', 96)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\wamp\www\mvo...', 96, Array)
+#2 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\wamp\www\mvo...', 96, Array)
+#3 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-14 02:54:43 Error: [MissingControllerException] Controller class AdminController could not be found.
+#0 C:\wamp\www\mvorcamentos\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-18 20:19:33 Error: Fatal Error (4): syntax error, unexpected '<' in [C:\wamp\www\mvorcamentos\app\View\Expenses\edit.ctp, line 12]
+2012-10-18 20:19:33 Error: [FatalErrorException] syntax error, unexpected '<'
+#0 C:\wamp\www\mvorcamentos\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\mvo...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\mvo...', 12, Array)
+#2 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\mvo...', 12, Array)
+#3 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-18 20:36:34 Error: Fatal Error (4): syntax error, unexpected T_VARIABLE, expecting T_FUNCTION in [C:\wamp\www\mvorcamentos\app\Controller\ExpensesController.php, line 4]
+2012-10-18 20:36:34 Error: [FatalErrorException] syntax error, unexpected T_VARIABLE, expecting T_FUNCTION
+#0 C:\wamp\www\mvorcamentos\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\mvo...', 4)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\mvo...', 4, Array)
+#2 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\mvo...', 4, Array)
+#3 C:\wamp\www\mvorcamentos\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}

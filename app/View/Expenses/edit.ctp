@@ -19,6 +19,6 @@
 	echo $this->Form->input('orcamento_id', array('type' => 'hidden'));
 	echo $this->Form->input('id', array('type' => 'hidden'));	
 	echo $this->Form->end('Editar Gasto');
-	echo $this->Html->script('jquery.js');
-	echo $this->Html->script('use_date.js');	
+	//echo $this->Html->script('jquery.js');
+	echo $this->Html->script('use_date.js');
 ?>

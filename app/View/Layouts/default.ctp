@@ -9,6 +9,8 @@
 		echo $this->Html->charset();		
 		echo $this->Html->css('style01.css');		
 		echo $this->Html->css('cake.generic');
+		echo $this->Html->script('jquery.js');
+		echo $this->Html->script('footer.js');
 		echo $this->fetch('meta');
 		echo $this->fetch('css');
 		echo $this->fetch('script');
@@ -42,8 +44,8 @@
 		<?php echo $this->fetch('content'); ?>
 		
 		<?php //echo $this->element('sql_dump'); ?>
-		<div class="clear_both" />		
-	</div>
+		<div class="clear_both"></div>
+	</div>	
 	<div class="footer">
 		<div class="footer_left">
 			Copyright (C) 2012 MV SERVIÇOS.

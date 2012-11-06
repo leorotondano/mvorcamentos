@@ -16,6 +16,6 @@
 	echo $this->Form->input('valor_unitario', array('label' => 'Valor Unitário', 'type' => 'text'));
 	echo $this->Form->input('qtd', array('label' => 'Quantidade'));	
 	echo $this->Form->end('Adicionar Gasto');
-	echo $this->Html->script('jquery.js');
+	//echo $this->Html->script('jquery.js');
 	echo $this->Html->script('use_date.js');	
 ?>

@@ -76,9 +76,7 @@
 
 .footer
 {
-    position: fixed;
-    bottom: 0;
-    left: 0;
+	display: none;
     height: 72px;
     background: url('../img/footer_background.png') repeat-x left bottom;
     width: 100%;
@@ -120,7 +118,7 @@
 .site_body
 {
     width: 70%;
-    margin: 0 auto 80px auto;
+    margin: 0 auto 0px auto;
     min-height: 200px;
 	border-bottom: 7px solid black;
 	border-right: 7px solid black;

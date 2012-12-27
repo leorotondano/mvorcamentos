@@ -223,11 +223,25 @@ $total_html = "<br /> <br /><span><b>TOTAL CUSTOS:</b> R$</span>$total_orcamento
 $html = $style . $orcamento_html . $cliente_html . $materials_html . $employees_html. $expenses_html . $total_html;
 //$html = $materials_html;
 
+/*
+*/
+
+$termo = <<<TERMO
+	<br /><br /><br />
+	<b>TERMO DE ACEITAÇÃO DE ORÇAMENTO</b><br />
+	Concordo com o orçamento acima proposto.<br />
+	<b>Nome:__________________________________________________________________</b><br />
+	<b>Função:________________________________________________________________</b><br />
+	<b>CPF/CNPJ:______________________________________________________________</b><br />
+	<b>Data:__/__/____</b><br />
+TERMO;
+
+$html .= $termo;
+
 //$tcpdf->writeHTMLCell($w=0, $h=0, $x='', $y='10', $html, $border=0, $ln=1, $fill=0, $reseth=true, $align='', $autopadding=true);
 $tcpdf->writeHTML($html, true, false, false, false, '');
 
 $tcpdf->lastPage();
 echo $tcpdf->Output('orcamento.pdf', 'D');
-
 
 ?>
